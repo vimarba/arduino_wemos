@@ -24,7 +24,7 @@ char auth[] = "xxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 // Your WiFi credentials.
 // Set password to "" for open networks.
 char ssid[] = "DRDALASL";
-char pass[] = "doradapaellamanitas";
+char pass[] = "xxxxxxxxxxxxx";
 
 const int pinRele = D1;
 
