@@ -19,7 +19,7 @@
 
 // You should get Auth Token in the Blynk App.
 // Go to the Project Settings (nut icon).
-char auth[] = "d4cf8e6adc9a40b9a2f68cb2163ccbd3";
+char auth[] = "xxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
@@ -71,7 +71,7 @@ void BucleTermostato() {
 
         Serial.println("AUTO");
         
-        http.begin("http://blynk-cloud.com/adfbd99f68f345df8be28f73854888ff/get/V1");  
+        http.begin("http://blynk-cloud.com/xxxxxxxxxxxxxxxxxxxxxxxxx/get/V1");  
         int httpCode = http.GET(); 
  
         if (httpCode > 0) {
@@ -82,7 +82,7 @@ void BucleTermostato() {
           Serial.println(temp_salon);
         }
 
-        http.begin("http://blynk-cloud.com/d264e4ccf3814039a6081a612ef08571/get/V1");  
+        http.begin("http://blynk-cloud.com/xxxxxxxxxxxxxxxxxxxxxxxx/get/V1");  
         httpCode = http.GET(); 
  
         if (httpCode > 0) {
