@@ -1,1 +1,1 @@
-Sonoff de la calderta
+Sonoff de la caldera
